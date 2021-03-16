@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DatabaseDaoTests" type="JUnit" factoryName="JUnit">
+    <module name="buy-our-stuff" />
+    <option name="PACKAGE_NAME" value="com.codecool.buyourstuff.dao.implementation.db" />
+    <option name="MAIN_CLASS_NAME" value="" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="package" />
+    <envs>
+      <env name="PSQL_DB_NAME" value="test_db" />
+      <env name="PSQL_USER_NAME" value="user" />
+      <env name="PSQL_PASSWORD" value="user" />
+      <env name="DAO_TYPE" value="DATABASE" />
+    </envs>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
